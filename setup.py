@@ -10,7 +10,7 @@ setuptools.setup(
     author_email='matan.honig2@gmail.com',  # Type in your E-Mail
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://pypi.org/project/mhyt",
+    url="https://github.com/matan-h/mhyt",
     packages=['mhyt'],
     install_requires=["youtube-dl","imageio_ffmpeg"],
     classifiers=[

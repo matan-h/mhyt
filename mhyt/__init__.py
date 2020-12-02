@@ -42,8 +42,7 @@ def yt_download(url, filename=None, ismusic=False, video_format=None, hooks=None
             os.remove(filename)
         ##########################
     print(f"download {url} in format {video_format} to file {filename}")
-    ########
-    print(ydl_opts)
+
     #############################################
     with youtube_dl.YoutubeDL(ydl_opts) as ydl:
         ydl.download([url])
